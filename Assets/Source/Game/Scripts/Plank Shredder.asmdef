@@ -1,0 +1,17 @@
+{
+    "name": "PlankShredder",
+    "rootNamespace": "PlankShredder",
+    "references": [
+        "GUID:e26387a8a4a3afa419f7981000251d90",
+        "GUID:6c8f13e2d0315e84b86615867eed5462"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
