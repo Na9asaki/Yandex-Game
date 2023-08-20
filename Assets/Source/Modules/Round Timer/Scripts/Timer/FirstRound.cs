@@ -17,7 +17,10 @@ namespace RoundTimer
             _timerUI.ViewTime(_roundTimer);
         }
 
-        public void Deactivate() => _active = false;
+        public void Deactivate()
+        {
+            _active = false;
+        }
 
         private void Update()
         {

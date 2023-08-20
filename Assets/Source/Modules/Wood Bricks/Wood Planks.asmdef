@@ -1,6 +1,6 @@
 {
     "name": "WoodPlanks",
-    "rootNamespace": "const",
+    "rootNamespace": "WoodPlanks",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

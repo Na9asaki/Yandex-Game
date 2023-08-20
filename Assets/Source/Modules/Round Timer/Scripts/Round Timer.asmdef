@@ -2,7 +2,8 @@
     "name": "RoundTimer",
     "rootNamespace": "RoundTimer",
     "references": [
-        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:e26387a8a4a3afa419f7981000251d90"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,20 +1,30 @@
+using PlankShredder;
 using UnityEngine;
 
 public class PlankFactory : MonoBehaviour
 {
-    [SerializeField] private Plank[] _planks;
     [SerializeField] private Transform[] _position;
+    [SerializeField] private Transform _parent;
+
+    private LevelType _levelType;
     
     internal void Create()
     {
-        for (int i = 0; i < _position.Length; i++)
+        var planks = _levelType.Planks;
+        for (int i = 0; i < planks.Count; i++)
         {
-            Instantiate(_planks[i], _position[i].position, _position[i].rotation);
+            Instantiate(planks[i], _position[i].position, Quaternion.identity);
         }
     }
 
-    public void Activate()
+    public void Activate(LevelType levelType)
     {
+        _levelType = levelType;
         Create();
+    }
+
+    public float GetAllEndurence()
+    {
+        return _levelType.AllEndurence;
     }
 }
